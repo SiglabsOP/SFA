@@ -269,4 +269,6 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = SectorFlowAnalyzerGUI()
     window.show()
+    window.showMaximized()  # This will make the window start maximized
+
     sys.exit(app.exec_())
